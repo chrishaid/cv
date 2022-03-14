@@ -20,3 +20,6 @@ rmarkdown::render("cv.rmd",
 pagedown::chrome_print(input = tmp_html_cv_loc,
                        output = "cv.pdf")
 
+#create copy of cv.html as index.html for webhosting on github pages
+system('cp cv.html index.html')
+
