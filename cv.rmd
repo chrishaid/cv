@@ -69,7 +69,7 @@ CV %>% print_skill_bars()
 
 ```{r}
 if(params$pdf_mode){
-  cat("View this resume online with links at _https://chrishaid.github.io/cv/_")
+  cat("View this resume online with links at https://chrishaid.github.io/cv/")
 } else {
   cat("[<i class='fas fa-download'></i> Download a PDF of this CV](https://github.com/chrishaid/cv/raw/main/cv.pdf)")
 }
